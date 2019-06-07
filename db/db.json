@@ -1,0 +1,354 @@
+{
+  "Clienti": [
+    {
+      "nome": "Rouvin",
+      "cognome": "Gallienne",
+      "indirizzo": "53473 Warner Way",
+      "telefono": "967 823 6030",
+      "email": "rgallienne0@shop-pro.jp"
+    },
+    {
+      "nome": "Mead",
+      "cognome": "Scarlett",
+      "indirizzo": "29630 Farragut Crossing",
+      "telefono": "254 312 9585",
+      "email": "mscarlett1@rakuten.co.jp"
+    },
+    {
+      "nome": "Matias",
+      "cognome": "Chavrin",
+      "indirizzo": "2059 Golf Course Terrace",
+      "telefono": "650 861 9846",
+      "email": "mchavrin2@studiopress.com"
+    },
+    {
+      "nome": "Currey",
+      "cognome": "Shankster",
+      "indirizzo": "951 Anthes Circle",
+      "telefono": "369 123 8909",
+      "email": "cshankster3@wordpress.org"
+    },
+    {
+      "nome": "Yolanda",
+      "cognome": "McGrayle",
+      "indirizzo": "48798 Orin Avenue",
+      "telefono": "625 894 0395",
+      "email": "ymcgrayle4@sciencedirect.com"
+    },
+    {
+      "nome": "Brennen",
+      "cognome": "Booth-Jarvis",
+      "indirizzo": "8968 Sutherland Plaza",
+      "telefono": "525 239 5436",
+      "email": "bboothjarvis5@pinterest.com"
+    },
+    {
+      "nome": "Mitzi",
+      "cognome": "Coolbear",
+      "indirizzo": "90 Clyde Gallagher Court",
+      "telefono": "120 712 9775",
+      "email": "mcoolbear6@miitbeian.gov.cn"
+    },
+    {
+      "nome": "Lurline",
+      "cognome": "Wild",
+      "indirizzo": "1056 Prairieview Hill",
+      "telefono": "522 100 4508",
+      "email": "lwild7@163.com"
+    },
+    {
+      "nome": "Obediah",
+      "cognome": "Cuzen",
+      "indirizzo": "1291 Lien Court",
+      "telefono": "929 741 3454",
+      "email": "ocuzen8@google.co.jp"
+    },
+    {
+      "nome": "Trista",
+      "cognome": "Pachmann",
+      "indirizzo": "54 Stone Corner Way",
+      "telefono": "657 681 3943",
+      "email": "tpachmann9@quantcast.com"
+    },
+    {
+      "nome": "Sue",
+      "cognome": "Everingham",
+      "indirizzo": "616 Saint Paul Way",
+      "telefono": "869 855 5880",
+      "email": "severinghama@blogger.com"
+    },
+    {
+      "nome": "Genvieve",
+      "cognome": "Haggidon",
+      "indirizzo": "704 Fisk Alley",
+      "telefono": "694 635 0861",
+      "email": "ghaggidonb@facebook.com"
+    },
+    {
+      "nome": "Basia",
+      "cognome": "Sprason",
+      "indirizzo": "70 Sherman Lane",
+      "telefono": "323 838 3368",
+      "email": "bsprasonc@google.ru"
+    },
+    {
+      "nome": "Annabelle",
+      "cognome": "Borne",
+      "indirizzo": "59785 Spaight Plaza",
+      "telefono": "563 435 1741",
+      "email": "aborned@cyberchimps.com"
+    },
+    {
+      "nome": "Leigha",
+      "cognome": "Pawlowicz",
+      "indirizzo": "1 Cardinal Road",
+      "telefono": "875 141 7301",
+      "email": "lpawlowicze@apache.org"
+    },
+    {
+      "nome": "Twyla",
+      "cognome": "Oldrey",
+      "indirizzo": "7368 Village Plaza",
+      "telefono": "146 803 3020",
+      "email": "toldreyf@bravesites.com"
+    },
+    {
+      "nome": "Gonzales",
+      "cognome": "Wanell",
+      "indirizzo": "3 Ilene Hill",
+      "telefono": "504 439 5957",
+      "email": "gwanellg@usda.gov"
+    },
+    {
+      "nome": "Kore",
+      "cognome": "Cliss",
+      "indirizzo": "9 Mockingbird Road",
+      "telefono": "964 545 9052",
+      "email": "kclissh@sbwire.com"
+    },
+    {
+      "nome": "Pryce",
+      "cognome": "Knibbs",
+      "indirizzo": "0241 Hanover Terrace",
+      "telefono": "520 581 3358",
+      "email": "pknibbsi@meetup.com"
+    },
+    {
+      "nome": "Belia",
+      "cognome": "O'Leary",
+      "indirizzo": "12 Dahle Road",
+      "telefono": "768 437 6728",
+      "email": "bolearyj@npr.org"
+    },
+    {
+      "nome": "Minni",
+      "cognome": "Stadding",
+      "indirizzo": "29514 Dayton Place",
+      "telefono": "698 677 9507",
+      "email": "mstaddingk@bluehost.com"
+    },
+    {
+      "nome": "Torry",
+      "cognome": "Newsham",
+      "indirizzo": "7786 Butternut Lane",
+      "telefono": "258 383 5284",
+      "email": "tnewshaml@friendfeed.com"
+    },
+    {
+      "nome": "Holmes",
+      "cognome": "Ennew",
+      "indirizzo": "7 Westport Place",
+      "telefono": "710 585 4238",
+      "email": "hennewm@symantec.com"
+    },
+    {
+      "nome": "Cheslie",
+      "cognome": "Radband",
+      "indirizzo": "12 John Wall Center",
+      "telefono": "957 166 0544",
+      "email": "cradbandn@themeforest.net"
+    },
+    {
+      "nome": "Kelsy",
+      "cognome": "Neles",
+      "indirizzo": "446 Roxbury Plaza",
+      "telefono": "645 563 2033",
+      "email": "kneleso@issuu.com"
+    },
+    {
+      "nome": "Nicola",
+      "cognome": "Maffiotti",
+      "indirizzo": "55565 Gulseth Circle",
+      "telefono": "558 405 9032",
+      "email": "nmaffiottip@forbes.com"
+    },
+    {
+      "nome": "Allayne",
+      "cognome": "Griffin",
+      "indirizzo": "80 Hooker Place",
+      "telefono": "341 827 5787",
+      "email": "agriffinq@qq.com"
+    },
+    {
+      "nome": "Scotty",
+      "cognome": "Daine",
+      "indirizzo": "9538 Tony Center",
+      "telefono": "831 534 8000",
+      "email": "sdainer@yale.edu"
+    },
+    {
+      "nome": "Corny",
+      "cognome": "Grolle",
+      "indirizzo": "2763 Boyd Street",
+      "telefono": "951 850 6815",
+      "email": "cgrolles@netlog.com"
+    },
+    {
+      "nome": "Coleen",
+      "cognome": "Roft",
+      "indirizzo": "57 Rieder Pass",
+      "telefono": "913 633 6673",
+      "email": "croftt@ifeng.com"
+    },
+    {
+      "nome": "Madalena",
+      "cognome": "Laminman",
+      "indirizzo": "85 Mockingbird Street",
+      "telefono": "570 365 1973",
+      "email": "mlaminmanu@latimes.com"
+    },
+    {
+      "nome": "Tedda",
+      "cognome": "Korda",
+      "indirizzo": "91562 Cody Way",
+      "telefono": "228 116 0800",
+      "email": "tkordav@virginia.edu"
+    },
+    {
+      "nome": "Carolynn",
+      "cognome": "Florence",
+      "indirizzo": "6619 Loftsgordon Drive",
+      "telefono": "748 946 5328",
+      "email": "cflorencew@joomla.org"
+    },
+    {
+      "nome": "Penny",
+      "cognome": "Poppleton",
+      "indirizzo": "24364 Mesta Drive",
+      "telefono": "326 643 4225",
+      "email": "ppoppletonx@comsenz.com"
+    },
+    {
+      "nome": "Cori",
+      "cognome": "Chaise",
+      "indirizzo": "80975 Pepper Wood Pass",
+      "telefono": "887 651 1260",
+      "email": "cchaisey@seattletimes.com"
+    },
+    {
+      "nome": "Daveen",
+      "cognome": "Castan",
+      "indirizzo": "7075 Browning Street",
+      "telefono": "154 180 3929",
+      "email": "dcastanz@jugem.jp"
+    },
+    {
+      "nome": "Odelle",
+      "cognome": "Zecchinii",
+      "indirizzo": "74605 Bultman Center",
+      "telefono": "836 951 5632",
+      "email": "ozecchinii10@ehow.com"
+    },
+    {
+      "nome": "Jodie",
+      "cognome": "Liebermann",
+      "indirizzo": "3029 Texas Lane",
+      "telefono": "874 945 2048",
+      "email": "jliebermann11@constantcontact.com"
+    },
+    {
+      "nome": "Adams",
+      "cognome": "Stovell",
+      "indirizzo": "58 Scott Plaza",
+      "telefono": "859 506 4316",
+      "email": "astovell12@miitbeian.gov.cn"
+    },
+    {
+      "nome": "Harlie",
+      "cognome": "Scone",
+      "indirizzo": "5079 Utah Junction",
+      "telefono": "437 371 0362",
+      "email": "hscone13@bloglines.com"
+    },
+    {
+      "nome": "Deanna",
+      "cognome": "Kinchington",
+      "indirizzo": "852 Blue Bill Park Point",
+      "telefono": "720 689 2440",
+      "email": "dkinchington14@flavors.me"
+    },
+    {
+      "nome": "Claude",
+      "cognome": "Docherty",
+      "indirizzo": "5 Bartillon Court",
+      "telefono": "663 730 7399",
+      "email": "cdocherty15@whitehouse.gov"
+    },
+    {
+      "nome": "Mallory",
+      "cognome": "Bayle",
+      "indirizzo": "716 Manitowish Crossing",
+      "telefono": "356 599 7531",
+      "email": "mbayle16@constantcontact.com"
+    },
+    {
+      "nome": "Rea",
+      "cognome": "Choules",
+      "indirizzo": "296 Larry Park",
+      "telefono": "779 871 1992",
+      "email": "rchoules17@de.vu"
+    },
+    {
+      "nome": "Harry",
+      "cognome": "Drane",
+      "indirizzo": "8 Cardinal Trail",
+      "telefono": "862 370 8438",
+      "email": "hdrane18@bandcamp.com"
+    },
+    {
+      "nome": "Salli",
+      "cognome": "McCarlich",
+      "indirizzo": "06650 Bonner Parkway",
+      "telefono": "861 473 4426",
+      "email": "smccarlich19@princeton.edu"
+    },
+    {
+      "nome": "Geraldine",
+      "cognome": "Ghilardi",
+      "indirizzo": "01 Armistice Road",
+      "telefono": "857 458 2418",
+      "email": "gghilardi1a@hp.com"
+    },
+    {
+      "nome": "Ranique",
+      "cognome": "McGiven",
+      "indirizzo": "196 4th Trail",
+      "telefono": "611 998 0857",
+      "email": "rmcgiven1b@mysql.com"
+    },
+    {
+      "nome": "Rodrigo",
+      "cognome": "De Zamudio",
+      "indirizzo": "5394 Manitowish Alley",
+      "telefono": "416 947 1929",
+      "email": "rdezamudio1c@geocities.com"
+    },
+    {
+      "nome": "Trace",
+      "cognome": "Sudron",
+      "indirizzo": "8 Karstens Parkway",
+      "telefono": "188 827 2931",
+      "email": "tsudron1d@ucsd.edu"
+    }
+  ]
+}
