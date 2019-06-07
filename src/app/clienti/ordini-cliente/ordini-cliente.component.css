@@ -1,5 +1,6 @@
 .form{
   display: flex;
+  flex-wrap: wrap;
 }
 .submit{
   align-self: center;
