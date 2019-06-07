@@ -1,0 +1,6 @@
+.form{
+  display: flex;
+}
+.submit{
+  align-self: center;
+}

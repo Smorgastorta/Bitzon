@@ -8,7 +8,6 @@ import { ClientiService } from '../services/clienti.service';
   styleUrls: ['./clienti.component.css']
 })
 export class ClientiComponent implements OnInit {
-  cliente: Cliente;
   listaClienti: Cliente[];
 
   constructor(service: ClientiService) {

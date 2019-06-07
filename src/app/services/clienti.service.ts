@@ -8,10 +8,20 @@ import { Cliente } from '../models/cliente';
 })
 export class ClientiService {
 
-  constructor(private http: HttpClient)  {
-   }
-  getClienti(): Observable<Cliente[]>{
+  constructor(private http: HttpClient) {
+  }
+  getClienti(): Observable<Cliente[]> {
     return this.http.get<Cliente[]>('http://localhost:3000/Clienti');
-
+  }
+  getCliente(id: number): Observable<Cliente> {
+    return this.http.get<Cliente>(`http://localhost:3000/Clienti/${id}`);
+  }
+  putCliente(cliente: Cliente): Observable<Cliente> {
+    console.log(cliente);
+    return this.http.put<Cliente>(`http://localhost:3000/Clienti/${cliente.id}`, cliente);
+  }
+  postCliente(cliente: Cliente): Observable<Cliente> {
+    console.log(cliente);
+    return this.http.post<Cliente>(`http://localhost:3000/Clienti`, cliente);
   }
 }
