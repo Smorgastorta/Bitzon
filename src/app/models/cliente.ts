@@ -6,6 +6,7 @@ export class Cliente {
   telefono: string;
   indirizzo: string;
   constructor(nome?: string, cognome?: string, email?: string, indirizzo?: string, telefono?: string) {
+    this.id = -1;
     this.nome = nome;
     this.cognome = cognome;
     this.email = email;

@@ -1,7 +1,7 @@
 <table class="table table-striped">
   <thead class="thead-dark">
     <tr>
-      <th>Azioni</th>
+      <th><button (click)="nuovoCliente = {}" class="btn btn-primary">Nuovo</button></th>
       <th>Nome</th>
       <th>Cognome</th>
       <th>Indirizzo</th>
@@ -12,14 +12,16 @@
   <tbody>
     <tr *ngFor="let cliente of listaClienti">
       <td>
-          <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" [routerLink]="['/clienti',cliente.id,'ordini']">Info</a>
-                <a class="dropdown-item" href="#">Modifica</a>
-              </div>
-            </div>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" [routerLink]="['/clienti',cliente.id,'info']">Info</a>
+            <a class="dropdown-item" [routerLink]="['/clienti',cliente.id,'modifica']">Modifica</a>
+            <a class="dropdown-item" (click)="onElimina(cliente)">Elimina</a>
+          </div>
+        </div>
       </td>
       <td>{{cliente.nome}}</td>
       <td>{{cliente.cognome}}</td>

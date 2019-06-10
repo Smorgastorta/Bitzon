@@ -6,11 +6,13 @@ import { OrdiniClienteComponent } from './ordini-cliente/ordini-cliente.componen
 import { ClientiRoutingModule } from './clienti-routing/clienti-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { InfoClienteComponent } from './info-cliente/info-cliente.component';
 
 @NgModule({
   declarations: [
     ClientiComponent,
-    OrdiniClienteComponent
+    OrdiniClienteComponent,
+    InfoClienteComponent
   ],
   imports: [
     CommonModule,

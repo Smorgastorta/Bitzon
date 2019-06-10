@@ -24,4 +24,10 @@ export class ClientiService {
     console.log(cliente);
     return this.http.post<Cliente>(`http://localhost:3000/Clienti`, cliente);
   }
+  deleteCliente(cliente: Cliente): Observable<Cliente> {
+    console.log(cliente);
+    let result = this.http.delete<Cliente>(`http://localhost:3000/Clienti/${cliente.id}`);
+    console.log(result);
+    return result;
+  }
 }

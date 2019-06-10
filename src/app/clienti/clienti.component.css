@@ -1,0 +1,6 @@
+table tbody tr td{
+  vertical-align: middle;
+}
+table thead {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,27 @@
+<div class="gianni">
+  <form [formGroup]="form" class="form">
+    <div class="form-group">
+      <label for="nome">Nome</label>
+      <input type="email" class="form-control" formControlName="nome" id="nome" >
+    </div>
+    <div class="form-group">
+      <label for="cognome">Cognome</label>
+      <input type="text" class="form-control" formControlName="cognome" id="cognome" >
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="text" class="form-control" formControlName="email" id="email" >
+    </div>
+    <div class="form-group">
+      <label for="indirizzo">Indirizzo</label>
+      <input type="text" class="form-control" formControlName="indirizzo" id="indirizzo" >
+    </div>
+    <div class="form-group">
+      <label for="telefono">Telefono</label>
+      <input type="text" class="form-control" formControlName="telefono" id="telefono" >
+    </div>
+    <button type="button" (click)="onSalva()" class="btn btn-primary" [disabled] = "!form.valid">Salva</button>
+    <span class="small success">Cliente aggiornato correttamente</span>
+    <button (click)="onChiudi()">Chiudi</button>
+  </form>
+</div>

@@ -11,38 +11,17 @@ import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms'
 })
 export class OrdiniClienteComponent implements OnInit {
 
-  cliente: Cliente = new Cliente('', '', '', '', '0');
-  form: FormGroup;
+  cliente: Cliente;
   flag = false;
   constructor(private route: ActivatedRoute, private service: ClientiService, formBuilder: FormBuilder) {
-    if (this.cliente.id > 0 || this.cliente.id != NaN) {
-
-      this.service.getCliente(Number(this.route.snapshot.paramMap.get('id'))).subscribe(data => {
-        this.cliente = data;
-        this.form.setValue({
-          nome: this.cliente.nome,
-          cognome: this.cliente.cognome,
-          indirizzo: this.cliente.indirizzo,
-          email: this.cliente.email,
-          telefono: this.cliente.telefono
-        });
-      });
-    }
-
+    this.service.getCliente(Number(this.route.snapshot.paramMap.get('id'))).subscribe(data => this.cliente = data);
   }
 
   ngOnInit() {
-    this.form = new FormGroup({
-      nome: new FormControl(this.cliente.nome, Validators.required)
-      , cognome: new FormControl(this.cliente.cognome, Validators.required)
-      , email: new FormControl(this.cliente.email, Validators.required)
-      , indirizzo: new FormControl(this.cliente.indirizzo, Validators.required)
-      , telefono: new FormControl(this.cliente.telefono, Validators.required)
-    });
   }
-  onSalva() {
+  onSalva(cliente: Cliente) {
     const id = this.cliente.id;
-    this.cliente = this.form.value as Cliente;
+    this.cliente = cliente;
     this.cliente.id = id;
     this.service.putCliente(this.cliente).subscribe();
     this.flag = true;
