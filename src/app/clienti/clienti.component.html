@@ -1,7 +1,8 @@
 <table class="table table-striped">
   <thead class="thead-dark">
     <tr>
-      <th><button (click)="nuovoCliente = {}" class="btn btn-primary">Nuovo</button></th>
+      <th><button [routerLink]="['/clienti',
+       'nuovo']" class="btn btn-primary">Nuovo</button></th>
       <th>Nome</th>
       <th>Cognome</th>
       <th>Indirizzo</th>

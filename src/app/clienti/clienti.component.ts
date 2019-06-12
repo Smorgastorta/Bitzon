@@ -11,14 +11,14 @@ export class ClientiComponent implements OnInit, OnChanges {
   listaClienti: Cliente[];
   nuovoCliente: Cliente;
   clienteSelezionato: Cliente;
-  info: boolean;
 
   constructor(private service: ClientiService) {
     this.service.getClienti().subscribe(data => this.listaClienti = data);
 
   }
-  ngOnChanges(){
-    this.service.getClienti().subscribe(data => this.listaClienti = data);
+  ngOnChanges() {
+    this.service.getClienti();
+
   }
   ngOnInit() {
   }

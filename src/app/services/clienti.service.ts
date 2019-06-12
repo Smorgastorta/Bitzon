@@ -10,6 +10,7 @@ export class ClientiService {
 
   constructor(private http: HttpClient) {
   }
+
   getClienti(): Observable<Cliente[]> {
     return this.http.get<Cliente[]>('http://localhost:3000/Clienti');
   }

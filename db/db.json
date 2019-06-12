@@ -2,59 +2,11 @@
   "Clienti": [
     {
       "id": 2,
-      "nome": "Gwennyqwfd",
+      "nome": "Gwennnyjjj",
       "cognome": "Dacca",
       "email": "gdacca1@mapquest.com",
       "indirizzo": "03076 Meadow Vale Pass",
       "telefono": "757-156-4782"
-    },
-    {
-      "id": 3,
-      "nome": "Sonni",
-      "cognome": "Layson",
-      "email": "slayson2@newyorker.com",
-      "indirizzo": "37198 Scott Alley",
-      "telefono": "254-599-4177"
-    },
-    {
-      "id": 4,
-      "nome": "Tobin",
-      "cognome": "Banford",
-      "email": "tbanford3@creativecommons.org",
-      "indirizzo": "598 Kingsford Pass",
-      "telefono": "612-300-8510"
-    },
-    {
-      "id": 5,
-      "nome": "Saw",
-      "cognome": "Powlett",
-      "email": "spowlett4@microsoft.com",
-      "indirizzo": "62426 Stoughton Point",
-      "telefono": "680-696-7100"
-    },
-    {
-      "id": 6,
-      "nome": "Kally",
-      "cognome": "Aberdein",
-      "email": "kaberdein5@cbc.ca",
-      "indirizzo": "276 Moulton Crossing",
-      "telefono": "916-309-5735"
-    },
-    {
-      "id": 7,
-      "nome": "Persis",
-      "cognome": "Brooksbank",
-      "email": "pbrooksbank6@europa.eu",
-      "indirizzo": "0219 Green Ridge Trail",
-      "telefono": "521-142-0509"
-    },
-    {
-      "id": 8,
-      "nome": "Wynnie",
-      "cognome": "Toke",
-      "email": "wtoke7@live.com",
-      "indirizzo": "1923 Acker Trail",
-      "telefono": "281-882-0193"
     },
     {
       "id": 9,
@@ -73,14 +25,6 @@
       "telefono": "650-438-3276"
     },
     {
-      "id": 11,
-      "nome": "Carola",
-      "cognome": "Webermann",
-      "email": "cwebermanna@ucoz.ru",
-      "indirizzo": "9844 Butterfield Crossing",
-      "telefono": "698-102-9433"
-    },
-    {
       "id": 12,
       "nome": "Cort",
       "cognome": "Hanselman",
@@ -95,30 +39,6 @@
       "email": "lhammondc@360.cn",
       "indirizzo": "2 Loftsgordon Parkway",
       "telefono": "709-475-1243"
-    },
-    {
-      "id": 14,
-      "nome": "Briney",
-      "cognome": "Paddell",
-      "email": "bpaddelld@nba.com",
-      "indirizzo": "62 Blue Bill Park Hill",
-      "telefono": "838-604-5418"
-    },
-    {
-      "id": 15,
-      "nome": "Karrah",
-      "cognome": "Gobbet",
-      "email": "kgobbete@edublogs.org",
-      "indirizzo": "38975 Quincy Crossing",
-      "telefono": "905-671-2233"
-    },
-    {
-      "id": 16,
-      "nome": "Tina",
-      "cognome": "Cornelleau",
-      "email": "tcornelleauf@hhs.gov",
-      "indirizzo": "4 Tomscot Point",
-      "telefono": "404-545-1898"
     },
     {
       "id": 17,
@@ -137,44 +57,12 @@
       "telefono": "650-917-3086"
     },
     {
-      "id": 19,
-      "nome": "Jules",
-      "cognome": "Radley",
-      "email": "jradleyi@examiner.com",
-      "indirizzo": "29788 Comanche Junction",
-      "telefono": "314-210-3906"
-    },
-    {
       "id": 20,
       "nome": "Lyndsey",
       "cognome": "Starrs",
       "email": "lstarrsj@moonfruit.com",
       "indirizzo": "4 Esker Center",
       "telefono": "560-357-0287"
-    },
-    {
-      "id": 21,
-      "nome": "Ruth",
-      "cognome": "Kleinert",
-      "email": "rkleinertk@quantcast.com",
-      "indirizzo": "11840 Briar Crest Circle",
-      "telefono": "996-251-0994"
-    },
-    {
-      "id": 22,
-      "nome": "Feodora",
-      "cognome": "Orring",
-      "email": "forringl@goo.gl",
-      "indirizzo": "10450 Ilene Hill",
-      "telefono": "517-475-9213"
-    },
-    {
-      "id": 23,
-      "nome": "Christie",
-      "cognome": "Tidbold",
-      "email": "ctidboldm@vistaprint.com",
-      "indirizzo": "9127 Northwestern Court",
-      "telefono": "229-107-6605"
     },
     {
       "id": 24,
@@ -185,212 +73,12 @@
       "telefono": "360-655-3457"
     },
     {
-      "id": 25,
-      "nome": "Agustin",
-      "cognome": "Mesant",
-      "email": "amesanto@webeden.co.uk",
-      "indirizzo": "6748 Mccormick Court",
-      "telefono": "984-510-9562"
-    },
-    {
-      "id": 26,
-      "nome": "Yancey",
-      "cognome": "Levey",
-      "email": "yleveyp@loc.gov",
-      "indirizzo": "64572 Rockefeller Trail",
-      "telefono": "393-165-1647"
-    },
-    {
-      "id": 27,
-      "nome": "Tressa",
-      "cognome": "Choldcroft",
-      "email": "tcholdcroftq@nyu.edu",
-      "indirizzo": "29 Mendota Trail",
-      "telefono": "996-152-8712"
-    },
-    {
-      "id": 28,
-      "nome": "Blanca",
-      "cognome": "Myers",
-      "email": "bmyersr@tamu.edu",
-      "indirizzo": "922 Elgar Circle",
-      "telefono": "137-900-3807"
-    },
-    {
-      "id": 29,
-      "nome": "Magdaia",
-      "cognome": "Keeley",
-      "email": "mkeeleys@is.gd",
-      "indirizzo": "1229 Erie Crossing",
-      "telefono": "695-733-2597"
-    },
-    {
-      "id": 30,
-      "nome": "Chalmers",
-      "cognome": "Antonin",
-      "email": "cantonint@cafepress.com",
-      "indirizzo": "846 Sloan Point",
-      "telefono": "532-816-7489"
-    },
-    {
-      "id": 31,
-      "nome": "Ozzy",
-      "cognome": "Methingam",
-      "email": "omethingamu@eventbrite.com",
-      "indirizzo": "0 Mosinee Way",
-      "telefono": "608-438-2262"
-    },
-    {
-      "id": 32,
-      "nome": "Florentia",
-      "cognome": "Piddock",
-      "email": "fpiddockv@com.com",
-      "indirizzo": "90 Gina Center",
-      "telefono": "352-382-4326"
-    },
-    {
-      "id": 33,
-      "nome": "Alfie",
-      "cognome": "Monkeman",
-      "email": "amonkemanw@example.com",
-      "indirizzo": "88 Farmco Street",
-      "telefono": "441-902-0042"
-    },
-    {
-      "id": 34,
-      "nome": "Odo",
-      "cognome": "Shevelin",
-      "email": "oshevelinx@artisteer.com",
-      "indirizzo": "6 Fisk Circle",
-      "telefono": "520-194-6365"
-    },
-    {
-      "id": 35,
-      "nome": "Paten",
-      "cognome": "Spaduzza",
-      "email": "pspaduzzay@live.com",
-      "indirizzo": "22 Stoughton Junction",
-      "telefono": "768-892-2274"
-    },
-    {
-      "id": 36,
-      "nome": "Bunni",
-      "cognome": "Tomaszynski",
-      "email": "btomaszynskiz@google.nl",
-      "indirizzo": "0206 Crest Line Terrace",
-      "telefono": "301-921-1662"
-    },
-    {
-      "id": 37,
-      "nome": "Tristam",
-      "cognome": "Levington",
-      "email": "tlevington10@mashable.com",
-      "indirizzo": "6809 Katie Avenue",
-      "telefono": "385-321-4273"
-    },
-    {
-      "id": 38,
-      "nome": "Rosa",
-      "cognome": "Dowsing",
-      "email": "rdowsing11@addtoany.com",
-      "indirizzo": "30399 Northwestern Road",
-      "telefono": "421-187-3603"
-    },
-    {
-      "id": 39,
-      "nome": "Hewett",
-      "cognome": "Lamartine",
-      "email": "hlamartine12@si.edu",
-      "indirizzo": "3390 Sutherland Lane",
-      "telefono": "585-259-4234"
-    },
-    {
-      "id": 40,
-      "nome": "Franny",
-      "cognome": "Elfes",
-      "email": "felfes13@sun.com",
-      "indirizzo": "07552 Forest Drive",
-      "telefono": "607-315-9379"
-    },
-    {
-      "id": 41,
-      "nome": "Jenn",
-      "cognome": "Klulik",
-      "email": "jklulik14@jugem.jp",
-      "indirizzo": "722 Vera Lane",
-      "telefono": "933-271-7505"
-    },
-    {
-      "id": 42,
-      "nome": "Norah",
-      "cognome": "Klicher",
-      "email": "nklicher15@sciencedaily.com",
-      "indirizzo": "6 Cardinal Alley",
-      "telefono": "885-397-0903"
-    },
-    {
-      "id": 43,
-      "nome": "Greer",
-      "cognome": "Desquesnes",
-      "email": "gdesquesnes16@telegraph.co.uk",
-      "indirizzo": "78 Old Gate Lane",
-      "telefono": "470-887-5787"
-    },
-    {
-      "id": 44,
-      "nome": "Minnie",
-      "cognome": "Ugoni",
-      "email": "mugoni17@intel.com",
-      "indirizzo": "52308 Stuart Way",
-      "telefono": "179-889-0802"
-    },
-    {
-      "id": 45,
-      "nome": "Esme",
-      "cognome": "McAlinden",
-      "email": "emcalinden18@free.fr",
-      "indirizzo": "955 Basil Hill",
-      "telefono": "306-762-3560"
-    },
-    {
-      "id": 46,
-      "nome": "Rahel",
-      "cognome": "Kydd",
-      "email": "rkydd19@economist.com",
-      "indirizzo": "0 Maple Wood Park",
-      "telefono": "309-209-6901"
-    },
-    {
-      "id": 47,
-      "nome": "Randie",
-      "cognome": "Keyson",
-      "email": "rkeyson1a@engadget.com",
-      "indirizzo": "0 Hooker Center",
-      "telefono": "745-832-9429"
-    },
-    {
-      "id": 48,
-      "nome": "Prentice",
-      "cognome": "Fishley",
-      "email": "pfishley1b@amazon.co.uk",
-      "indirizzo": "39 Sunfield Point",
-      "telefono": "774-353-7179"
-    },
-    {
-      "id": 49,
-      "nome": "Rahel",
-      "cognome": "Vel",
-      "email": "rvel1c@myspace.com",
-      "indirizzo": "57 Sheridan Drive",
-      "telefono": "400-845-6229"
-    },
-    {
-      "id": 50,
-      "nome": "Clementine",
-      "cognome": "Tomkin",
-      "email": "ctomkin1d@chron.com",
-      "indirizzo": "33 Sunbrook Circle",
-      "telefono": "858-538-8956"
+      "nome": "Gabriel",
+      "cognome": "Ciobanu",
+      "email": "tsstest011@gmail.it",
+      "indirizzo": "via rumena",
+      "telefono": "333",
+      "id": 25
     }
   ]
 }

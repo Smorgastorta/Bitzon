@@ -1,4 +1,4 @@
-<div class="gianni">
+<div class="container">
   <form [formGroup]="form" class="form">
     <div class="form-group">
       <label for="nome">Nome</label>
@@ -21,7 +21,7 @@
       <input type="text" class="form-control" formControlName="telefono" id="telefono" >
     </div>
     <button type="button" (click)="onSalva()" class="btn btn-primary" [disabled] = "!form.valid">Salva</button>
-    <span class="small success">Cliente aggiornato correttamente</span>
-    <button (click)="onChiudi()">Chiudi</button>
+    <span *ngIf="salvato==true" class="small success">Cliente aggiornato correttamente</span> <br>
+    <button (click)="onChiudi()" class="btn btn-danger">Chiudi</button>
   </form>
 </div>

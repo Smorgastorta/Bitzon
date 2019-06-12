@@ -5,7 +5,7 @@ export class Cliente {
   email: string;
   telefono: string;
   indirizzo: string;
-  constructor(nome?: string, cognome?: string, email?: string, indirizzo?: string, telefono?: string) {
+  constructor(nome = '', cognome = '', email = '', indirizzo = '', telefono = '') {
     this.id = -1;
     this.nome = nome;
     this.cognome = cognome;

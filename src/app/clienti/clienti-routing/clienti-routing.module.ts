@@ -7,7 +7,9 @@ import { InfoClienteComponent } from '../info-cliente/info-cliente.component';
 const routes: Routes = [
   { path: '', component: ClientiComponent },
   { path: ':id/ordini', component: OrdiniClienteComponent },
-  { path: ':id/info', component: InfoClienteComponent }
+  { path: ':id/info', component: InfoClienteComponent },
+  { path: ':id/modifica', component: InfoClienteComponent },
+  { path: 'nuovo', component: InfoClienteComponent }
 ];
 
 @NgModule({

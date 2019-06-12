@@ -10,36 +10,47 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./info-cliente.component.css']
 })
 export class InfoClienteComponent implements OnInit {
-  cliente: Cliente;
+  cliente = new Cliente();
   form: FormGroup;
+  salvato = false;
   ngOnInit(): void {
   }
   constructor(private service: ClientiService, formBuilder: FormBuilder, route: ActivatedRoute, private router: Router) {
     this.form = new FormGroup({
-      nome : new FormControl(),
+      nome: new FormControl(),
       cognome: new FormControl(),
       email: new FormControl(),
       indirizzo: new FormControl(),
       telefono: new FormControl(),
     });
-    this.service.getCliente(Number(route.snapshot.paramMap.get('id'))).subscribe(data => {
-      this.cliente = data;
-      this.form = formBuilder.group({
-        nome: this.cliente.nome,
-        cognome: this.cliente.cognome,
-        email: this.cliente.email,
-        indirizzo: this.cliente.indirizzo,
-        telefono: this.cliente.telefono,
+    if (route.snapshot.paramMap.get('id')) {
+      this.service.getCliente(Number(route.snapshot.paramMap.get('id'))).subscribe(data => {
+        this.cliente = data;
+        this.form = formBuilder.group({
+          nome: this.cliente.nome,
+          cognome: this.cliente.cognome,
+          email: this.cliente.email,
+          indirizzo: this.cliente.indirizzo,
+          telefono: this.cliente.telefono,
+        });
       });
-    });
+    } else {
+      this.cliente = new Cliente();
+      this.cliente.id = undefined;
+    }
   }
   onSalva() {
-
     Object.assign(this.cliente, this.form.value);
-    this.service.putCliente(this.cliente).subscribe(data => console.log(data));
+    if (this.cliente.id === undefined) {
+      this.service.postCliente(this.cliente).subscribe(data => console.log(data));
+
+    }else{
+      this.service.putCliente(this.cliente).subscribe(data => console.log(data));
+    }
+    this.salvato = true;
     this.router.navigate(['/clienti']);
   }
-  onChiudi(){
+  onChiudi() {
     this.router.navigate(['/clienti']);
   }
 
